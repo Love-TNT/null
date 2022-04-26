@@ -1,3 +1,24 @@
-a{
-    text-decoration: none;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.oncenter {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutme {
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../src/background.jpg);
+  background-size: cover;
 }

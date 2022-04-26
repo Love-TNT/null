@@ -8,11 +8,12 @@
 header {
   width: 100vw;
   height: 100vh;
-  background-image: url(./background.jpg);
+  background-image: url(../src/background.jpg);
   background-size: cover;
 }
 
 nav {
+  z-index: 999;
   position: absolute;
   top: 0;
   left: 0;
@@ -86,7 +87,7 @@ nav {
     display: none;
   }
 
-  /* 菜单打开时，滑到初始位置 */
+  /* 菜单打开时，显示 */
   .nav-menu.open {
     display: block;
     transition: 0.4s ease-in-out;
